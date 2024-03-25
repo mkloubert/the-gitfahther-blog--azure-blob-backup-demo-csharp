@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/the-gitfahther-blog--csharp-cli-demo1.csproj",
+                "${workspaceFolder}/bb.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/the-gitfahther-blog--csharp-cli-demo1.csproj",
+                "${workspaceFolder}/bb.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/the-gitfahther-blog--csharp-cli-demo1.csproj"
+                "${workspaceFolder}/bb.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
